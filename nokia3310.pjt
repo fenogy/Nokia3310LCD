@@ -1,0 +1,32 @@
+[PROJECT]
+Target=nokia3310.hex
+Development_Mode=
+Processor_Text=PIC18F452
+ToolSuite=CCS
+Processor=0x452F
+[nokia3310]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=nokia3310
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=K:\2Nokia 3310\nokia3310.c
+2=K:\2Nokia 3310\nokia3310.h
+3=
+4=lcd.c
+5=Menu.c
+6=C:\Nokia 3310\nokia3310.tre
+7=
+[Target Data]
+OptionString=-p +FH
+FileList=K:\2Nokia 3310\nokia3310.c
+[Units]
+Count=1
+1=nokia3310.c (main)
+Link=0

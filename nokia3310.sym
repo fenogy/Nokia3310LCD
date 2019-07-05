@@ -1,0 +1,75 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     countgloble
+006-1E5 pixel_table
+1E6-1F1 str
+1F2     i
+1F3-1F4 clearram.ddram
+1F3     putchara.chr
+1F3     main.@SCRATCH
+1F3     INIT.@SCRATCH
+1F4-1F5 putchara.tablept
+1F4     @delay_ms1.P1
+1F5     cursorxy.x
+1F6     cursorxy.y
+1F6-1F7 putchara.count
+1F7     cursorxy.@SCRATCH
+1F8     writecommand.val
+1F8-1F9 putchara.char_column
+1FA     writedata.val
+1FA     putchara.@SCRATCH
+1FB     bytesender.val
+1FC     bytesender.x
+1FD     bytesender.@SCRATCH
+F83     PSP_DATA
+FBB     CCP_2_LOW
+FBB-FBC CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE-FBF CCP_1
+FBF     CCP_1_HIGH
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+0004  @delay_ms1
+01C4  main
+002E  reset
+0048  bytesender
+0078  writecommand
+00A6  writedata
+015C  putchara
+00B2  clearram
+0084  cursorxy
+00E4  INIT
+01C4  @cinit
+
+Project Files:
+    nokia3310.c
+    nokia3310.h
+    C:\PROGRA~1\PICC\devices\18F452.h
+
+Units:
+    K:\2Nokia 3310\nokia3310.c (main)
+
+Compiler Settings:
+    Processor:      PIC18F452
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      0
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      K:\2Nokia 3310\nokia3310.err
+    Ext Symbols: K:\2Nokia 3310\nokia3310.esym
+    INHX32:      K:\2Nokia 3310\nokia3310.hex
+    Symbols:     K:\2Nokia 3310\nokia3310.sym
+    List:        K:\2Nokia 3310\nokia3310.lst
+    Debug/COFF:  K:\2Nokia 3310\nokia3310.cof
+    Call Tree:   nokia3310.tre
+    Statistics:  nokia3310.sta

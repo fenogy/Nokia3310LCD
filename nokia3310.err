@@ -1,0 +1,5 @@
+>>> Warning 203 "nokia3310.c" Line 159(1,1): Condition always TRUE
+>>> Warning 202 "nokia3310.c" Line 5(5,16): Variable never used:   countgloble
+>>> Warning 202 "nokia3310.c" Line 124(6,9): Variable never used:   str
+      Memory usage:   ROM=7%      RAM=33% - 33%
+      0 Errors,  3 Warnings.
